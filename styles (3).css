@@ -1,0 +1,85 @@
+/* Estilo general */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Navegación */
+header {
+    background-color: #333;
+    padding: 1em 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Secciones */
+section {
+    padding: 2em;
+    text-align: center;
+}
+
+#inicio {
+    background-color: #5a67d8;
+    color: white;
+    padding: 4em 0;
+}
+
+#nosotros, #programas, #servicios, #contacto {
+    background-color: white;
+    margin-bottom: 1em;
+}
+
+/* Formulario de contacto */
+form {
+    margin: 0 auto;
+    max-width: 400px;
+    text-align: left;
+}
+
+form label, form input, form textarea {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+form input[type="submit"] {
+    background-color: #5a67d8;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+form input[type="submit"]:hover {
+    background-color: #434bbf;
+}
+
+/* Pie de página */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 1em 0;
+    text-align: center;
+}
